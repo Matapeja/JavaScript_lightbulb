@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #262626;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bulb-container {
+    width: 500px;
+    height: 500px;
+}
+
+.btn {
+    width: 100px;
+    height: 100px; 
+}
+
+button {
+    height: 60px;
+    width: 70px;
+    font-family: 'Courier New';
+    font-size: 30px;
+    border: none;	
+}
+
+button:hover {
+    height: 63px;
+    width: 73px;
+	font-size: 33px;
+    cursor: pointer;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
